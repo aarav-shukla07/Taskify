@@ -1,0 +1,42 @@
+/* styles.css */
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex; /* Arrange items horizontally by default */
+    padding: 20px;
+}
+
+.todo {
+    padding: 20px;
+    margin: 10px;/* Adds space between the columns*/
+    flex: 1;/* Allows the column to grow equally and take up available spaces*/
+}
+
+.progress {
+    padding: 20px;
+    margin: 10px;/* Adds space between the columns*/
+    flex: 1;/* Allows the column to grow equally and take up available spaces*/
+}
+
+.review {
+    padding: 20px;
+    margin: 10px;/* Adds space between the columns*/
+    flex: 1;/* Allows the column to grow equally and take up available spaces*/
+}
+
+.finished {
+    padding: 20px;
+    margin: 10px;/* Adds space between the columns*/
+    flex: 1;/* Allows the column to grow equally and take up available spaces*/
+}
